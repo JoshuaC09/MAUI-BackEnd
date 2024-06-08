@@ -764,3 +764,4 @@ C:\MAUI GitHub\BACKEND\MAUI-BackEnd\WebApplication2\obj\Debug\net8.0\refint\WebA
 C:\MAUI GitHub\BACKEND\MAUI-BackEnd\WebApplication2\obj\Debug\net8.0\WebApplication2.pdb
 C:\MAUI GitHub\BACKEND\MAUI-BackEnd\WebApplication2\obj\Debug\net8.0\WebApplication2.genruntimeconfig.cache
 C:\MAUI GitHub\BACKEND\MAUI-BackEnd\WebApplication2\obj\Debug\net8.0\ref\WebApplication2.dll
+C:\MAUI GitHub\BACKEND\MAUI-BackEnd\WebApplication2\obj\Debug\net8.0\WebApplication2.sourcelink.json

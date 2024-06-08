@@ -1,8 +1,6 @@
 using Microsoft.AspNetCore.Builder;
-using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using WebApplication1.DatabaseContext;
 using WebApplication2;
 using WebApplication2.Controllers;
 
@@ -48,8 +46,14 @@ else
 }
 
 app.UseHttpsRedirection();
+app.UseStaticFiles(); // Enable serving static files
 app.UseRouting();
 app.UseCors("AllowAll");
 app.UseAuthorization();
-app.MapControllers();
-app.Run("https://0.0.0.0:7054");  // Listen on all network interfaces
+
+app.UseEndpoints(endpoints =>
+{
+    endpoints.MapControllers();
+});
+
+app.Run();
